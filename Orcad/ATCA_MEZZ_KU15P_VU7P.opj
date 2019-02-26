@@ -34,9 +34,8 @@
        "Q:\hardware\CMS_Trigger\6089-103_ATCA_mezz\Orcad\ATCA_MEZZ_KU15P_VU7P.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Item}\t{Quantity}\t{Desc}\t{Dist}\t{Dist P/N}\t{Mfg}\t{Mfg#}\t{Value}\t{PCB Footprint}\t{xxPart Reference}")
-    (BOM_Header
-       "Item\tQuantity\tDescription\tVendor\tVendor Number\tManufacturer\tMfg Part Num\tValue\tFootprint\tReference")
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{Desc}\t{Dist}\t{Dist P/N}\t{Mfg}\t{Mfg#}")
+    (BOM_Header "\tDescription\tQuantity\tReference")
     (BOM_Include_File
        "Q:\HARDWARE\CMS_TRIGGER\ATCA\MEZZ_IT_DTC\ORCAD\ATCA_MEZZ_KU15P_VU7P.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
@@ -86,8 +85,8 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Input Board File" "Allegro\6089-103-RevA_61.brd")
-    ("Allegro Netlist Output Board File" "Allegro\6089-103-RevA_62.brd")
+    ("Allegro Netlist Input Board File" "Allegro\6089-103-RevA_70.brd")
+    ("Allegro Netlist Output Board File" "Allegro\6089-103-RevA_71.brd")
     ("Allegro Netlist Remove Etch" "TRUE")
     ("Allegro Netlist Place Changed Component" "ONLY_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -100,7 +99,10 @@
     (GATE_&_PIN_SWAP_Scope "0")
     (GATE_&_PIN_SWAP_File_Name
        "Q:\hardware\CMS_Trigger\6089-103_ATCA_mezz\Orcad\was_is.txt")
-    (Backannotation_TAB "1"))
+    (Backannotation_TAB "1")
+    (IREFReportFile
+       "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.csv")
+    (IREFViewOutput "0"))
   (Folder "Outputs"
     (File ".\atca_mezz_ku15p_vu7p.bom"
       (Type "Report"))
@@ -114,7 +116,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\atca_mezz_ku15p_vu7p.csv"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     ("T POINT F"
@@ -251,58 +255,78 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\library1.olb")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\atca_mezz_ku15p_vu7p.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 498 0 710"))
+        (Placement "44 2 3 -1 -1 -4 -23 0 498 0 710"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 220 1829 220 761")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "7.01: K_QUAD_A_UTILITY_1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
         (Placement "44 0 1 -1 -1 -4 -23 44 1653 44 585")
+        (Scroll "-207 0")
+        (Zoom "68")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3.07: PWR_MEASURE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 110 1719 110 679")
+        (Scroll "0 780")
+        (Zoom "136")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2.11: LEDS, SWITCHES, LEVELS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 132 1741 132 701")
+        (Scroll "0 350")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2.09: K_OSCILLATOR_CLOCKING"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 154 1763 154 723")
+        (Scroll "0 96")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "8.06: V_QUAD_F_FIREFLY_X4_5"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 176 1785 176 745")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "2.02: BLADE_HS_CONN_#1"))
+      (Page "5.04: K_CONFIGURATION"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 66 1675 66 607")
+        (Placement "44 0 1 -1 -1 -4 -23 198 1807 198 767")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "2.03: BLADE_HS_CONN_#2"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 88 1697 88 629")
-        (Scroll "168 108")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "7.02: K_QUAD_BCD_FIREFLY_X12_3")))
+      (Page "1.01: NOTES")))
   (MPSSessionName "crs5")
   (ISPCBBASICLICENSE "false"))
