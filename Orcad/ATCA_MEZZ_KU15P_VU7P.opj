@@ -85,8 +85,8 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Input Board File" "Allegro\6089-103-RevA_70.brd")
-    ("Allegro Netlist Output Board File" "Allegro\6089-103-RevA_71.brd")
+    ("Allegro Netlist Input Board File" "Allegro\6089-103-RevA_72.brd")
+    ("Allegro Netlist Output Board File" "Allegro\6089-103-RevA_73.brd")
     ("Allegro Netlist Remove Etch" "TRUE")
     ("Allegro Netlist Place Changed Component" "ONLY_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -121,6 +121,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "Y:\ALLEGRO\LIBRARIES\NATESLIB.OLB")
+      (DeviceIndex "0"))
     ("T POINT F"
       (FullPartName "T POINT F.Normal")
       (LibraryName "E:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -235,11 +239,6 @@
       (FullPartName "65LVDS100.Normal")
       (LibraryName
          "Q:\HARDWARE\CMS_TRIGGER\ATCA\MEZZ_IT_DTC\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (JUMPER_DIFF
-      (FullPartName "JUMPER_DIFF.Normal")
-      (LibraryName
-         "Q:\HARDWARE\CMS_TRIGGER\ATCA\MEZZ_IT_DTC\ORCAD\LIBRARY1.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -255,7 +254,10 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\library1.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\atca_mezz_ku15p_vu7p.dsn"
+         "SCHEMATIC1" "8.07: V_QUAD_G_FIREFLY_X4_6"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -265,52 +267,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 1653 44 585")
-        (Scroll "-207 0")
-        (Zoom "68")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "3.07: PWR_MEASURE"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 110 1719 110 679")
-        (Scroll "0 780")
-        (Zoom "136")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "2.11: LEDS, SWITCHES, LEVELS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
         (Placement "44 0 1 -1 -1 -4 -23 132 1741 132 701")
-        (Scroll "0 350")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "2.09: K_OSCILLATOR_CLOCKING"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 154 1763 154 723")
-        (Scroll "0 96")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "8.06: V_QUAD_F_FIREFLY_X4_5"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 176 1785 176 745")
-        (Scroll "0 0")
+        (Scroll "0 10")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -320,13 +278,145 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 154 1763 154 723")
+        (Scroll "0 358")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "5.05: K_BANK65"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 176 1785 176 745")
+        (Scroll "0 368")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2.04: JTAG_CHAIN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
         (Placement "44 0 1 -1 -1 -4 -23 198 1807 198 767")
+        (Scroll "670 316")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "5.06: K_SYSMON"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 220 1829 220 789")
+        (Scroll "0 42")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "6.06: V_SYSMON"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 242 1851 242 811")
+        (Scroll "0 368")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "5.08: K_FPGA_TEST_CONN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 264 1873 264 833")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "1.01: NOTES")))
+      (Page "4.04: I2C_FPGA_SYSMON"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 1609 0 569")
+        (Scroll "0 230")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "5.03: K_FPGA_POWER_MGT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 22 1631 22 591")
+        (Scroll "0 170")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3.04: PWR_K_MGT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 44 1653 44 613")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "5.07: K_UTILITY_BANKS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 66 1675 66 635")
+        (Scroll "0 240")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2.09: K_OSCILLATOR_CLOCKING"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 1697 88 657")
+        (Scroll "120 368")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2.01: BLADE_POWER_CONN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 22 1631 22 591")
+        (Scroll "0 480")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "8.08: V_QUAD_HIJ_FIREFLY_X12_11"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 44 1653 44 613")
+        (Scroll "0 320")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "8.07: V_QUAD_G_FIREFLY_X4_6")))
   (MPSSessionName "crs5")
   (ISPCBBASICLICENSE "false"))
