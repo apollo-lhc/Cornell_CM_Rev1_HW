@@ -243,102 +243,209 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\atca_mezz_ku15p_vu7p.dsn")
-      (Path "Design Resources"
-         "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\atca_mezz_ku15p_vu7p.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\atca_mezz_ku15p_vu7p.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn")
+      (Path "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\library1.olb")
+      (Path "Design Resources" "Library" ".\library1.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "q:\hardware\cms_trigger\6089-103_atca_mezz\orcad\atca_mezz_ku15p_vu7p.dsn"))
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "1.01: NOTES")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "1.02: DIA_BLOCK_DIAGRAM")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "1.03: DIA_KU15P_TRANSCEIVERS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "1.04: DIA_VU7P_TRANSCEIVERS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "1.05: DIA_LHC_CLOCK_DIST")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "1.06: DIA_POWER")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.01: BLADE_POWER_CONN")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.02: BLADE_HS_CONN_#1")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.03: BLADE_HS_CONN_#2")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.04: JTAG_CHAIN")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.05: CONTROLLER")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.06: LHC_CLOCKING")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.07: LHC_CLOCKING_SUPPORT")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.08: LEGACY_TTC")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.09: K_OSCILLATOR_CLOCKING")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.10: V_OSCILLATOR_CLOCKING")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "2.11: LEDS, SWITCHES, LEVELS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "3.01: PWR_CONTROL")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "3.02: PWR_3V3 _ 1V8")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "3.03: PWR_K_INTERNAL")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "3.04: PWR_K_MGT")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "3.05: PWR_V_INTERNAL")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "3.06: PWR_V_MGT")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "3.07: PWR_MEASURE")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "4.01: I2C_CONTROLLER")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "4.02: I2C_POWER_CONTROL")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "4.03: I2C_CLOCK_SOURCE_CONTROL")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "4.04: I2C_FPGA_SYSMON")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "4.05: I2C_K_OPTICS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "4.06: I2C_V_OPTICS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.01: K_FPGA_GND")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.02: K_FPGA_POWER_INTERNAL")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.03: K_FPGA_POWER_MGT")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.04: K_CONFIGURATION")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.05: K_BANK65")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.06: K_SYSMON")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.07: K_UTILITY_BANKS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.08: K_FPGA_TEST_CONN")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "5.99: K_UNUSED_BLOCKS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.01: V_FPGA_GND")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.02: V_FPGA_POWER_INTERNAL")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.03: V_FPGA_POWER_MGT")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.04: V_CONFIGURATION")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.05: V_BANK65")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.06: V_SYSMON")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.07: V_UTILITY_BANKS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.08: V_FPGA_TEST_CONN")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "6.99: V_UNUSED_BLOCKS")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.01: K_QUAD_A_UTILITY_1")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.02: K_QUAD_BCD_FIREFLY_X12_3")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.03: K_QUAD_EFG_FIREFLY_X12_2")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.04: K_QUAD_HIJ_FIREFLY_X12_1")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.05: K_QUAD_K_UNUSED")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.06: K_QUAD_LMN_FIREFLY_X12_7")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.07: K_QUAD_O_UNUSED")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.08: K_QUAD_P_FIREFLY_X4_6")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.09: K_QUAD_Q_FIREFLY_X4_5")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.10: K_QUAD_R_FIREFLY_X4_4")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "7.11: K_QUAD_S_CHIP_TO_CHIP")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.01: V_QUAD_A_UTILITY_1")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.02: V_QUAD_B_FIREFLY_X4_1")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.03: V_QUAD_C_FIREFLY_X4_2")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.04: V_QUAD_D_FIREFLY_X4_3")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.05: V_QUAD_E_FIREFLY_X4_4")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.06: V_QUAD_F_FIREFLY_X4_5")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.07: V_QUAD_G_FIREFLY_X4_6")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.08: V_QUAD_HIJ_FIREFLY_X12_11")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.09: V_QUAD_K_CHIP_TO_CHIP")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.10: V_QUAD_L_FIREFLY_X4_7")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.11: V_QUAD_M_FIREFLY_X4_8")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.12: V_QUAD_N_FIREFLY_X4_9")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.13: V_QUAD_O_UNUSED")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.14: V_QUAD_P_FIREFLY_X4_10")
+      (Select "Design Resources" ".\atca_mezz_ku15p_vu7p.dsn" "SCHEMATIC1"
+         "8.15: V_QUAD_QRS_FIREFLY_X12_12"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 0 498 0 710"))
+        (Placement "44 2 3 0 781 -4 -23 0 498 0 710"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 220 1829 220 789")
-        (Scroll "0 350")
+        (Placement "44 0 1 -1 -1 -4 -23 66 1675 66 607")
+        (Scroll "863 970")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3.01: PWR_CONTROL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 66 1675 66 607")
+        (Scroll "0 220")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "4.01: I2C_CONTROLLER"))
+      (Page "8.02: V_QUAD_B_FIREFLY_X4_1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 242 1851 242 811")
-        (Scroll "-207 0")
-        (Zoom "68")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "4.02: I2C_POWER_CONTROL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 264 1873 264 833")
-        (Scroll "0 113")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "4.03: I2C_CLOCK_SOURCE_CONTROL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 1609 0 569")
+        (Placement "44 0 1 -1 -1 -4 -23 154 1763 154 695")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "4.04: I2C_FPGA_SYSMON"))
+      (Page "3.04: PWR_K_MGT"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 22 1631 22 591")
-        (Scroll "11 0")
-        (Zoom "136")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "4.05: I2C_K_OPTICS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 1653 44 613")
-        (Scroll "-207 0")
-        (Zoom "68")
-        (Occurrence "/"))
-      (Path
-         "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "4.06: I2C_V_OPTICS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 66 1675 66 635")
+        (Placement "44 0 1 -1 -1 -4 -23 110 1719 110 651")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "Q:\HARDWARE\CMS_TRIGGER\6089-103_ATCA_MEZZ\ORCAD\ATCA_MEZZ_KU15P_VU7P.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "2.01: BLADE_POWER_CONN")))
+      (Page "4.01: I2C_CONTROLLER")))
   (MPSSessionName "crs5")
   (ISPCBBASICLICENSE "false"))
