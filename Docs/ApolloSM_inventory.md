@@ -1,7 +1,7 @@
-| ID  | Location                   | Working | Remote Access? | FPGA (CM SN)     |
+| ID  | Location                   | Working | Remote Access? | FPGAs (CM SN)     |
 | --- | --- | --- | --- |--- |
 | 001 | Cornell                    | yes | -             | K (10)  |
-| 002 | BU (shelf)                 | yes | -           | -       |
+| 002 | BU (shelf)                 | yes | -           | K       |
 | 003 | BU (assembly room)         | no | -             | -       |
 | 004 | BU (assembly room)         | no | -             | -       |
 | 005 | CERN TIF                   | yes| yes             | -       |
