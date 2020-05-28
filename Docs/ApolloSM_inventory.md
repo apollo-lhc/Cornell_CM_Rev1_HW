@@ -9,4 +9,4 @@
 | 007 | BU (Dan's house)           | yes| -              | K        |
 | 008 | CERN                       | yes| -            | -       |
 | 009 | Cornell                    | yes| yes              | ?       |
-| 010 | Cornell                    | yes| yes            |  |
+| 010 | Cornell                    | yes| yes            |  ?|
