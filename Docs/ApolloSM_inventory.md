@@ -7,6 +7,6 @@
 | 005 | CERN TIF                   | yes| yes             | K+V       | |
 | 006 | BU (shelf)                 | yes| yes            | K+V (5) | |
 | 007 | BU (Dan's house)           | yes| -              | K        | needs wire for ESM |
-| 008 | CERN (B14?...to MPI?)      | yes| -            | -       | |
+| 008 | MPI (ATLAS)                | yes| -            | -       | |
 | 009 | Cornell                    | yes| yes              | ?       | |
 | 010 | Cornell                    | yes|             |  ?| |
