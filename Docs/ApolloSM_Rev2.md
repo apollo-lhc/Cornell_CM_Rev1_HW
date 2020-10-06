@@ -1,6 +1,6 @@
 |  ID | Location      | Cirexx # |Working | Remote Access? | FPGAs (CM SN) | SoC | Proposed location | notes |
 | --- | ---           | --- | ---     | ---            | ---           | --- | ---               | ---   |
-| 201 | BU (Apollo Lab) | |         |                |               |     | TF Project        |   |
+| 201 | BU (Apollo Lab) | 107523 |         |                |               |     | TF Project        |   |
 | 202 | in production |    |     |                |               |     | TF Project        |   |
 | 203 | in production |    |     |                |               |     | TF Project        |   |
 | 204 | in production |    |     |                |               |     | TF Project (Northeastern)|   |
