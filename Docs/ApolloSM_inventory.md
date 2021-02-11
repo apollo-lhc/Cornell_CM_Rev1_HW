@@ -3,9 +3,9 @@ In principle these boards are allocated 5/5 to ATLAS and CMS.  The "Owner" colum
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | Owner  |
 | --- | ---                      | ---     | ---            | ---                    | ---                | ---    |
 | 001 | Cornell                  | yes     | -              | ?                      |                    | CMS?   |
-| 002 | Cornell (for CM upgrade) | yes     | yes            | K                      | ATLAS SM/CM?       | ATLAS? |
-| 003 | BU (assembly room)       | no      | -              | -                      |                    | -      |
-| 004 | BU (assembly room)       | no      | -              | -                      |                    | -      |
+| 002 | Cornell (for CM upgrade) | yes     | yes            | K (MPI CM?)            | ATLAS SM/CM?       | ATLAS? |
+| 003 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      |
+| 004 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      |
 | 005 | CERN TIF                 | yes     | yes            | K+V                    |                    | CMS?   |
 | 006 | BU (shelf)               | yes     | yes            | K+V (5)                |                    | CMS?   |
 | 007 | BU (shelf)               | yes     | yes            | (K @ cornell) / MPI CM | needs wire for ESM | ATLAS  |
