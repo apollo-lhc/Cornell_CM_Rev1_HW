@@ -5,7 +5,7 @@ Rev 1 SM
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | (SM) Owner  |
 | --- | ---                      | ---     | ---            | ---                    | ---                | ---    |
 | 001 | Cornell?                 | yes     | -              | ?                      |                    | CMS    |
-| 002 | BU (to Verena?)          | yes     | yes            | MPI Rev 1 CM           | ATLAS SM/CM?       | ATLAS  |
+| 002 | BU (can ship?)           | yes     | yes            | MPI Rev 1 CM           | ATLAS SM/CM?       | ATLAS  |
 | 003 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      |
 | 004 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      |
 | 005 | CERN TIF                 | yes     | yes            | K+V                    |                    | CMS    |
