@@ -14,6 +14,8 @@
 | CERN | 19100070 | BU SM201            | 00:50:51:FF:00:C9  |         |         |        |  Dev FW |
 | CERN | 19100072 | BU (table)          |                    |         |         |        | Put in SM003|
 | CERN | 17170046 | BU (storage)        |                    |         |         |        | totally borked |
+| UW   | M3       | BU (storage)        |                    |         |         |        | Used for testing |
+| UW   | M4       | BU (storage)        |                    |         |         |        |                   |
 
 
 
