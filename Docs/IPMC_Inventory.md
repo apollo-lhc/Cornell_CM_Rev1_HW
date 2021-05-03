@@ -20,12 +20,12 @@
 
 
 
-[//][]: # (This is a comment): # "(This is a comment)"
-
+[//]: # (This is a comment): 
 
 
 
 [//]: # "=== CERN ==="
+
 []: # "|| ID || Location || MAC || IP || FW ||  History || "
 []: # "|| 19100056 || Cornell SM-05 || 00:50:51:FF:00:05 || -DHCP- (@BU 192.168.20.5) ||  || || "
 []: # "|| 19100057 || BU (Shelf) SM-06 || 00:50:51:FF:00:06 || -DHCP- (@BU 192.168.20.6) ||  || || "
