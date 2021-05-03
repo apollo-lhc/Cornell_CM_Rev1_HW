@@ -20,4 +20,4 @@ Rev 2 SM
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | Owner  |
 | --- | ---                      | ---     | ---            | ---                    | ---                | ---    |
 | 201 | Dan's house              | yes     |                |                        |                    | ?      |
-| 202 | BU                       | yes     |                |                        | no S/N, needs ECOs | ?      |
+| 202 | BU                       | in bringup     |                |                        | no S/N, ECOs done | ?      |
