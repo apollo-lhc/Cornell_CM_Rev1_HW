@@ -1,5 +1,5 @@
 | Type |  ID | Location                 | MAC Addr | Working | FW Ver? | Owner  | notes  |      
-| Open | --- | ---                      | ---      | ---     | ---     | ---    | ---    | 
+| ---  | --- | ---                      | ---      | ---     | ---     | ---    | ---    | 
 | Open | 1   | BU: SM202                | ?        | yes     |         |        |        | 
 | Open | 2?  | Dan: SM201               | ?        | yes     |         |        |        | 
 | Open | 3?  | BU: SM06                 | ?        | yes     |         |        |        | 
