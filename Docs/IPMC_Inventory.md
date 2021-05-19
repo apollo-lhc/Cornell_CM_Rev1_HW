@@ -5,8 +5,8 @@
 | Open | 2        | BU: SM201        | 00:80:E1:A4:89:80 | yes     | 18243f6 | BU    | 192.168.21.78                       |
 | Open | 3        | BU: SM06         | 00:80:E1:XX:YY:ZZ | yes     | 12d59fb | BU    |                                     |
 | Open | 4        | BU: SM202        | 00:80:E1:XX:YY:ZZ | yes     | 12d59fb | BU    |                                     |
-| Open | 5        | Andrew's office  | ?                 | yes     |         | BU    |                                     |
-| Open | 6        | Andrew's office  | ?                 | yes     |         | BU    |                                     |
+| Open | 5        | Andrew's office  | 00:80:E1:A5:89:88 | yes     |         | BU    |                                     |
+| Open | 6        | Andrew's office  | 00:80:E1:B4:89:7F | yes     |         | BU    |                                     |
 | Open | 7        | MPI              | ?                 | yes     |         | BU    |                                     |
 | Open | 8        | MPI              | ?                 | yes     |         | BU    |                                     |
 |      |          |                  |                   |         |         |       |                                     |
