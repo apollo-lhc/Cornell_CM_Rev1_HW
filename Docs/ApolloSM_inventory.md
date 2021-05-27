@@ -10,7 +10,7 @@ Rev 1 SM
 | 004 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      |
 | 005 | CERN TIF                 | yes     | yes            | K+V                    |                    | CMS    |
 | 006 | PRB3 lab                 | yes     | yes            | NO CM (ATLAS C-CM)     |                    | ATLAS  |
-| 007 | BU (shelf)               | yes     | yes            | ATLAS Cornell CM       | needs wire for ESM | ATLAS  |
+| 007 | UMASS Amherst            | yes     | yes            | ATLAS Cornell CM       |                    | ATLAS  |
 | 008 | MPI (ATLAS)              | yes     | -              | MPI CM                 |                    | ATLAS  |
 | 009 | Cornell                  | yes     | yes            | ?                      |                    | CMS    |
 | 010 | Cornell                  | yes     |                | ?                      |                    | CMS    |
