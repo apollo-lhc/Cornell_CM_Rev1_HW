@@ -13,7 +13,7 @@ Rev 1 SM
 | 007 | UMASS Amherst            | yes     | yes            | ATLAS Cornell CM       |                    | ATLAS  |
 | 008 | MPI (ATLAS)              | yes     | -              | MPI CM                 |                    | ATLAS  |
 | 009 | Cornell                  | yes     | yes            | ?                      |                    | CMS    |
-| 010 | Cornell                  | yes     |                | ?                      |                    | CMS    |
+| 010 | Cornell                  | yes     | yes            | ?                      |                    | CMS    |
 
 Rev 2 SM
 
