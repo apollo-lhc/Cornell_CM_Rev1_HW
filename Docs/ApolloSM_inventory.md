@@ -9,7 +9,7 @@ Rev 1 SM
 | 003 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      |
 | 004 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      |
 | 005 | CERN TIF                 | yes     | yes            | K+V                    |                    | CMS    |
-| 006 | PRB3 lab                 | yes     | yes            | NO CM (ATLAS C-CM)     |                    | ATLAS  |
+| 006 | BU (PRB3 lab?)           | yes     | yes            | NO CM (ATLAS C-CM)     |                    | ATLAS  |
 | 007 | UMASS Amherst            | yes     | yes            | ATLAS Cornell CM       |                    | ATLAS  |
 | 008 | MPI (ATLAS)              | yes     | -              | MPI CM                 |                    | ATLAS  |
 | 009 | Cornell                  | yes     | yes            | Cornell CM08           |                    | CMS    |
