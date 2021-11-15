@@ -1,11 +1,11 @@
 # IPMC Inventory 
 | Type | ID       | Location         | MAC Addr          | Working | FW Ver? | Owner | notes                               |
 | ---  | ---      | ---              | ---               | ---     | ---     | ---   | ---                                 |
-| Open | 1        | Atlas Lab        | 00:80:E1:XX:YY:ZZ | yes     | 501e874 | BU    |                                     |
-| Open | 2        | BU: SM201        | 00:80:E1:A4:89:80 | yes     | 18243f6 | BU    | 192.168.21.78                       |
-| Open | 3        | BU: SM06         | 00:80:E1:XX:YY:ZZ | yes     | 12d59fb | BU    |                                     |
-| Open | 4        | Atlas Lab        | 00:80:E1:B3:89:61 | yes     | 47339c6 | BU    |                                     |
-| Open | 5        | BU: SM202        | 00:80:E1:A5:89:88 | yes     |         | BU    |                                     |
+| Open | 1        | BU               | 00:80:E1:XX:YY:ZZ | yes     | 501e874 | BU    |                                     |
+| Open | 2        | Cornell          | 00:80:E1:A4:89:80 | yes     | 09483ec | BU    |                                     |
+| Open | 3        | BU               | 00:80:E1:XX:YY:ZZ | yes     | 12d59fb | BU    |                                     |
+| Open | 4        | BU               | 00:80:E1:B3:89:61 | yes     | 47339c6 | BU    |                                     |
+| Open | 5        | BU               | 00:80:E1:A5:89:88 | yes     |         | BU    |                                     |
 | Open | 6        | Amherst          | 00:80:E1:B4:89:7F | yes     |         | BU    |                                     |
 | Open | 7        | MPI              | ?                 | yes     |         | BU    |                                     |
 | Open | 8        | MPI              | ?                 | yes     |         | BU    |                                     |
