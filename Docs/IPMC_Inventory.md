@@ -9,7 +9,7 @@
 | Open | 6        | Amherst          | 00:80:E1:B4:89:7F | yes     |         | BU    | 1p0                                    |
 | Open | 7        | MPI              | ?                 | yes     |         | BU    | 1p0                                    |
 | Open | 8        | MPI              | ?                 | yes     |         | BU    | 1p0                                  |
-| Open | 0001     | BU               |                   |         |         |       | 1p1; jumpers moved             | 
+| Open | 0001     | BU               |                   |         | 793b6f9 |       | 1p1; jumpers moved             | 
 | Open | 0002     | BU               |                   |         |         |       | 1p1; jumpers moved             | 
 | Open | 0031     | BU               |                   |         |         |       | 1p1             | 
 | Open | 0032     | BU               |                   |         |         |       | 1p1             | 
