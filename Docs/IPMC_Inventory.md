@@ -1,16 +1,16 @@
 # IPMC Inventory 
 | Type | ID       | Location         | MAC Addr          | Working | FW Ver? | Owner | notes                               |
 | ---  | ---      | ---              | ---               | ---     | ---     | ---   | ---                                 |
-| Open | 1        | BU               | 00:80:E1:XX:YY:ZZ | yes     | 501e874 | BU    | 1p0                                    |
+| Open | 1        | BU               | 00:80:E1:XX:YY:ZZ | yes     |         | BU    | 1p0                                    |
 | Open | 2        | Cornell          | 00:80:E1:A4:89:80 | yes     | 09483ec | BU    | 1p0                                    |
-| Open | 3        | BU               | 00:80:E1:XX:YY:ZZ | yes     | 12d59fb | BU    | 1p0                                    |
-| Open | 4        | BU               | 00:80:E1:B3:89:61 | yes     | 47339c6 | BU    | 1p0                                    |
+| Open | 3        | BU               | 00:80:E1:XX:YY:ZZ | yes     |         | BU    | 1p0                                    |
+| Open | 4        | BU               | 00:80:E1:B3:89:61 | yes     |         | BU    | 1p0                                    |
 | Open | 5        | BU               | 00:80:E1:A5:89:88 | yes     |         | BU    | 1p0                                    |
 | Open | 6        | Amherst          | 00:80:E1:B4:89:7F | yes     |         | BU    | 1p0                                    |
 | Open | 7        | MPI              | ?                 | yes     |         | BU    | 1p0                                    |
 | Open | 8        | MPI              | ?                 | yes     |         | BU    | 1p0                                  |
-| Open | 0001     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0002     | BU               |                   |         |         |       | 1p1             | 
+| Open | 0001     | BU               |                   |         |         |       | 1p1; jumpers moved             | 
+| Open | 0002     | BU               |                   |         |         |       | 1p1; jumpers moved             | 
 | Open | 0031     | BU               |                   |         |         |       | 1p1             | 
 | Open | 0032     | BU               |                   |         |         |       | 1p1             | 
 | Open | 0033     | BU               |                   |         |         |       | 1p1             | 
