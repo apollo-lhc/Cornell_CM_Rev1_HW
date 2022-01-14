@@ -3,7 +3,7 @@ In principle these boards are allocated 5/5 to ATLAS and CMS.  The "Owner" colum
 Rev 1 SM
 
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | (SM) Owner  | local IP |
-| --- | ---                      | ---     | ---            | ---                    | ---                | ---    | |
+| --- | ---                      | ---     | ---            | ---                    | ---                | ---    | --- |
 | 001 | CERN TIF                 | yes     | -              | Cornell CMXX           | VU7P-2             | CMS    | |
 | 002 | BU (can ship?)           | yes     | yes            | Cornell CM             | ATLAS SM/CM?       | ATLAS  | 192.168.30.22 |
 | 003 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      | |
@@ -18,6 +18,6 @@ Rev 1 SM
 Rev 2 SM
 
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | Owner  | local IP|
-| --- | ---                      | ---     | ---            | ---                    | ---                | ---    | |
+| --- | ---                      | ---     | ---            | ---                    | ---                | ---    | --- |
 | 201 | BU                       | yes     |                |                        |                    | ?      | 192.168.30.201 |
 | 202 | BU                       | in bringup     |                |                        | no S/N, ECOs done | ?      | |192.168.30.202|
