@@ -21,3 +21,10 @@ Rev 2 SM
 | --- | ---                      | ---     | ---            | ---                    | ---                | ---    | --- |
 | 201 | BU (Comtel Shelf 0x98)   | yes     | yes            |                        |                    | ?      | 192.168.30.201 |
 | 202 | BU (Comtel Shelf 0x96)   | yes     | yes            |                        |                    | ?      | 192.168.30.202|
+
+Rev 2a SM
+
+|  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | Owner  | local IP|
+| --- | ---                      | ---     | ---            | ---                    | ---                | ---    | --- |
+| 1   | BU EDF  | no 3v3STBY short     | no            |                        |                    | ?      | |
+| 2   | BU (Schroff Shelf 0x90)   | yes     | yes (Dan only)           |                        |                    | ?      | 192.168.30.12|
