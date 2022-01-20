@@ -19,5 +19,5 @@ Rev 2 SM
 
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | Owner  | local IP|
 | --- | ---                      | ---     | ---            | ---                    | ---                | ---    | --- |
-| 201 | BU                       | yes     |                |                        |                    | ?      | 192.168.30.201 |
-| 202 | BU                       | in bringup     |                |                        | no S/N, ECOs done | ?      | |192.168.30.202|
+| 201 | BU                       | yes     | yes            |                        |                    | ?      | 192.168.30.201 |
+| 202 | BU                       | yes     | yes            |                        |                    | ?      | 192.168.30.202|
