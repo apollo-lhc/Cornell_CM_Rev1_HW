@@ -1,25 +1,26 @@
 # IPMC Inventory 
 | Type | ID       | Location         | MAC Addr          | Working | FW Ver? | Owner | notes                               |
-| ---  | ---      | ---              | ---               | ---     | ---     | ---   | ---                                 |
-| Open | 1        | BU               | 00:80:E1:XX:YY:ZZ | yes     |         | BU    | 1p0                                    |
-| Open | 2        | Cornell          | 00:80:E1:A4:89:80 | yes     | 09483ec | BU    | 1p0                                    |
-| Open | 3        | BU               | 00:80:E1:XX:YY:ZZ | yes     |         | BU    | 1p0                                    |
-| Open | 4        | BU               | 00:80:E1:B3:89:61 | yes     |         | BU    | 1p0                                    |
-| Open | 5        | BU               | 00:80:E1:A5:89:88 | yes     |         | BU    | 1p0                                    |
-| Open | 6        | Amherst          | 00:80:E1:B4:89:7F | yes     |         | BU    | 1p0                                    |
-| Open | 7        | MPI              | ?                 | yes     |         | BU    | 1p0                                    |
-| Open | 8        | MPI              | ?                 | yes     |         | BU    | 1p0                                  |
-| Open | 0001     | BU               |                   |         | 793b6f9 |       | 1p1; jumpers moved             | 
-| Open | 0002     | BU               |                   |         |         |       | 1p1; jumpers moved             | 
-| Open | 0031     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0032     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0033     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0034     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0035     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0036     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0037     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0038     | BU               |                   |         |         |       | 1p1             | 
-| Open | 0038     | BU               |                   |         |         |       | 1p1             | 
+|------|----------|------------------|-------------------|---------|---------|-------|-------------------------------------|
+| Open | 1        | BU               | 00:80:E1:XX:YY:ZZ | yes     |         | BU    | 1p0                                 |
+| Open | 2        | Cornell          | 00:80:E1:A4:89:80 | yes     | 09483ec | BU    | 1p0                                 |
+| Open | 3        | BU               | 00:80:E1:XX:YY:ZZ | yes     |         | BU    | 1p0                                 |
+| Open | 4        | BU               | 00:80:E1:B3:89:61 | yes     |         | BU    | 1p0                                 |
+| Open | 5        | BU               | 00:80:E1:A5:89:88 | yes     |         | BU    | 1p0                                 |
+| Open | 6        | Amherst          | 00:80:E1:B4:89:7F | yes     |         | BU    | 1p0                                 |
+| Open | 7        | MPI              | ?                 | yes     |         | BU    | 1p0                                 |
+| Open | 8        | MPI              | ?                 | yes     |         | BU    | 1p0                                 |
+| Open | 0001     | BU               |                   |         | 793b6f9 |       | 1p1; jumpers moved                  |
+| Open | 0002     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0031     | Cornell          |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0032     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0033     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0034     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0035     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0036     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0037     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0038     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0039     | Cornell          |                   |         |         |       | 1p1; jumpers moved                  |
+|      |          |                  |                   |         |         |       |                                     |
 |      |          |                  |                   |         |         |       |                                     |
 | CERN | 19100056 | Cornell SM-05    | 00:50:51:FF:00:05 |         |         |       |                                     |
 | CERN | 19100057 | BU (Shelf) SM-06 | 00:50:51:FF:00:06 |         |         |       |                                     |
@@ -34,6 +35,7 @@
 | CERN | 17170046 | BU (storage)     |                   |         |         |       | totally borked                      |
 | UW   | M3       | BU (storage)     |                   |         |         |       | Used for testing                    |
 | UW   | M4       | BU (storage)     |                   |         |         |       |                                     |
+
 
 [//]: # "=== CERN ==="
 [//]: # "|| ID || Location || MAC || IP || FW ||  History || "
