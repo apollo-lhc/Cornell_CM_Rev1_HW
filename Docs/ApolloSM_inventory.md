@@ -9,7 +9,7 @@ Rev 1 SM
 | 003 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      | |
 | 004 | _BU (assembly room)_     | _no_    | -              | -                      |                    | -      | |
 | 005 | CERN TIF                 | yes     | yes            | Cornell CMXX                    |                    | CMS    | |
-| 006 | BU (PRB3 lab?)           | yes     | yes            | NO CM (ATLAS C-CM)     |                    | ATLAS  | 192.168.30.62 |
+| 006 | BU (PRB3 lab?)           | yes     | yes            | NO CM                  |                    | ATLAS  | 192.168.30.62 |
 | 007 | UMASS Amherst            | yes     | yes            | ATLAS Cornell CM       |                    | ATLAS  | |
 | 008 | MPI (ATLAS)              | yes     | -              | MPI CM                 |                    | ATLAS  | |
 | 009 | Cornell                  | yes     | yes            | Cornell CM08           |                    | CMS    | |
@@ -19,7 +19,7 @@ Rev 2 SM
 
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | Owner  | local IP|
 | --- | ---                      | ---     | ---            | ---                    | ---                | ---    | --- |
-| 201 | BU (Comtel Shelf 0x98)   | yes     | yes            |                        |                    | ?      | 192.168.30.201 |
+| 201 | BU (Comtel Shelf 0x98)   | yes     | yes            |   MPI                  |                    | ?      | 192.168.30.201 |
 | 202 | BU (Comtel Shelf 0x96)   | yes     | yes            |                        |                    | ?      | 192.168.30.202|
 
 Rev 2a SM
@@ -27,4 +27,4 @@ Rev 2a SM
 |  ID | Location                 | Working | Remote Access? | FPGAs (CM SN)          | notes              | Owner  | local IP|
 | --- | ---                      | ---     | ---            | ---                    | ---                | ---    | --- |
 | 1   | BU EDF  | no 3v3STBY short     | no            |                        |                    | ?      | |
-| 2   | BU (Schroff Shelf 0x90)   | yes     | yes (Dan only)           |                        |                    | ?      | 192.168.30.12|
+| 2   | BU (Schroff Shelf 0x90)   | yes     | yes (Dan only)           |    cornell                    |                    | ?      | 192.168.30.12|
