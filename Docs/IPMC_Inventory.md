@@ -9,7 +9,7 @@
 | Open | 6        | Amherst          | 00:80:E1:B4:89:7F | yes     |         | BU    | 1p0                                 |
 | Open | 7        | MPI              | ?                 | yes     |         | BU    | 1p0                                 |
 | Open | 8        | MPI              | ?                 | yes     |         | BU    | 1p0                                 |
-| Open | 0001     | BU               |                   |         | 793b6f9 |       | 1p1; jumpers moved                  |
+| Open | 0001     | BU               | 00:80:E1:96:87:6F | yes     | 793b6f9 |       | 1p1; bootloader; jumpers moved      |
 | Open | 0002     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
 | Open | 0031     | Cornell          |                   |         |         |       | 1p1; jumpers moved                  |
 | Open | 0032     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
