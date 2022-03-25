@@ -4,13 +4,14 @@
 | Open | 1        | BU               |                   | yes     |         | BU    | 1p0                                 |
 | Open | 2        | Cornell          | 00:80:E1:A4:89:80 | yes     |         | BU    | 1p0                                 |
 | Open | 3        | BU               | 00:80:E1:B5:89:75 | yes     |         | BU    | 1p0; bootloader                     |
-| Open | 4        | BU               | 00:80:E1:B3:89:61 | yes     |         | BU    | 1p0; bootloader                     |
+| Open | 4        | BU               | 00:80:E1:B3:89:61 | yes     |         | BU    | 1p0;                     |
 | Open | 5        | BU               | 00:80:E1:A5:89:88 | yes     |         | BU    | 1p0; bootloader                     |
 | Open | 6        | Amherst          | 00:80:E1:B4:89:7F | yes     |         | BU    | 1p0                                 |
 | Open | 7        | MPI              |                   | yes     |         | BU    | 1p0                                 |
 | Open | 8        | MPI              |                   | yes     |         | BU    | 1p0                                 |
 | Open | 0001     | BU               | 00:80:E1:96:87:6F | yes     |         |       | 1p1; bootloader; jumpers moved      |
 | Open | 0002     | BU               |                   |         |         |       | 1p1; jumpers moved                  |
+| Open | 0004     | BU               | 00:80:E1:96:87:60 | yes     |         |       | 1p1; bootloader; jumpers moved      |
 | Open | 0031     | Cornell          |                   |         |         |       | 1p1; jumpers moved                  |
 | Open | 0032     | BU               | 00:80:E1:A8:87:8B | yes     |         |       | 1p1; bootloader; jumpers moved      |
 | Open | 0033     | BU               | 00:80:E1:A7:87:63 | yes     |         |       | 1p1; bootloader; jumpers moved      |
